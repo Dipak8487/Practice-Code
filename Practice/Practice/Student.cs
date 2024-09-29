@@ -30,9 +30,9 @@ namespace Practice
 
         static void Main(string[] args)
         {
-            Student Akshay = new Student();
-            Akshay.CreateStudent(11,"Akshay Shinde","Male",24);
-            Akshay.GetStudents();
+            Student std = new Student();
+            std.CreateStudent(11,"Akshay Shinde","Male",24);
+            std.GetStudents();
 
 
 
